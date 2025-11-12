@@ -29,7 +29,7 @@ By 2024, that energy has decisively moved to Python, now the most-desired langua
 
 This pivot is not merely a change in syntax preference — it’s a structural realignment in the skill economy.
 Python sits at the crossroads of data science, AI/ML, and automation, areas that have dominated innovation cycles since 2020.
-![Graph1](figures\desired_languages_2019_vs_2024_arrows.png)
+![Graph1](figures/desired_languages_2019_vs_2024_arrows.png)
 
 As organizations shifted their R&D and hiring priorities toward intelligence and data-driven decision-making, developers naturally followed.
 
@@ -45,7 +45,7 @@ As workloads moved from local servers to distributed cloud systems, the very pla
 
 The 2019 landscape was still hybrid — Linux, Windows, and Docker shared space in developer aspirations.
 By 2024, the platform map tells a radically different story: developers overwhelmingly want to build, deploy, and scale on the public cloud.
-![Graph2](figures\desired_platforms_2019_vs_2024_arrows.png)
+![Graph2](figures/desired_platforms_2019_vs_2024_arrows.png)
 
 AWS, Azure, and Google Cloud now dominate the top ranks, representing a complete inversion from five years prior.
 Meanwhile, new-age players like Vercel, Cloudflare, and Firebase demonstrate how the frontier has moved toward serverless, managed, and edge-native ecosystems.
@@ -60,7 +60,7 @@ As applications scale horizontally across distributed environments, the need for
 
 Unlike languages or platforms, the database ecosystem shows a more stable evolution — but one that’s deeply strategic.
 PostgreSQL has not only maintained but expanded its lead as the most-desired database, outpacing NoSQL challengers like MongoDB and Redis.
-![Graph3](figures\desired_databases_2019_vs_2024_arrows.png)
+![Graph3](figures/desired_databases_2019_vs_2024_arrows.png)
 
 Developers are converging on databases that combine performance, scalability, and open-source freedom — attributes that align perfectly with the cloud-native movement described above.
 While PostgreSQL defines the gold standard for relational robustness, the rise of SQLite and MariaDB reveals another preference pattern: developers favor lightweight, embeddable solutions that integrate seamlessly into modular, microservice-driven applications.
@@ -110,7 +110,7 @@ Using job posting data from 2024 and role-level analysis (specifically Data role
 ### 2.1. The Human Core of Technical Work — Soft Skills Take Center Stage
 The word cloud of in-demand IT job skills reveals a surprising yet consistent pattern: the most frequently mentioned “technical skills” are not programming languages or frameworks — they’re human and organizational competencies.
 Terms like communication, problem solving, teamwork, adaptability, and leadership dominate job postings across all technical domains.
-![Graph4](figures\it_technical_skills_wordcloud.png)
+![Graph4](figures/it_technical_skills_wordcloud.png)
 
 This reflects a structural evolution in the role of the modern technologist.
 As automation and AI continue to absorb low-level technical execution, human meta-skills — the ability to coordinate, communicate, and adapt — have become the differentiators of employability.
@@ -125,7 +125,7 @@ Yet, beneath this human-centric layer, the technical foundation of demand is sti
 
 ### 2.2. Data Roles — Where Intelligence Meets Infrastructure
 The treemap visualization for “Data” roles in 2024 offers a high-resolution snapshot of where technical demand is consolidating.
-![Graph5](figures\data_role_desired_tech_2024_treemap.png)
+![Graph5](figures/data_role_desired_tech_2024_treemap.png)
 
 #### 2.2.1. Languages: The Analytical Trinity
 
@@ -225,7 +225,7 @@ Interpretation:
 The market isn’t betting everything on AI yet — it’s diversifying across performance (Systems), stability (Enterprise), and innovation (Data/AI).
 
 ### 3.2 Languages — Demand Volume ≠ Salary Value
-![Graph6](figures\top_grad_hire_languages.png)
+![Graph6](figures/top_grad_hire_languages.png)
 
 Python clearly dominates in demand, but Java and C++ remain indispensable.
 Python represents breadth — the language of choice for data, AI, and automation pipelines.
@@ -235,7 +235,7 @@ While graduates may aspire toward AI-heavy Python roles, the C/C++ and Java engi
 In short, Python builds opportunity; C++ and Java still build wealth.
 
 ### 3.3 Cloud Platforms — The New Minimum Literacy
-![Graph7](figures\top_grad_hire_platforms.png)
+![Graph7](figures/top_grad_hire_platforms.png)
 
 AWS, Azure, and Linux dominate platform demand — but not as differentiators.
 Cloud fluency has evolved from a specialization to a baseline skill.
@@ -245,7 +245,7 @@ Supporting platforms such as Databricks and Kubernetes mark the transition towar
 Employers aren’t rewarding cloud literacy with higher pay — they’re simply disqualifying candidates who lack it.
 
 ### 3.4 AI/ML Skills — High in Signal, Low in Scale
-![Graph8](figures\top_grad_hire_aiml.png)
+![Graph8](figures/top_grad_hire_aiml.png)
 The AI/ML demand chart shows strong keyword saturation — “AI”, “Machine Learning”, “Generative AI”, “LLM”, “Prompt Engineering.”
 However, the actual number of roles remains limited.
 Employers are signaling interest but hiring selectively, often absorbing AI-related talent under broader data analyst or automation roles.
