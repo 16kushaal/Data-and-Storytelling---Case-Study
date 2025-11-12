@@ -175,7 +175,7 @@ While developer aspirations and employer demand lean toward AI, automation, and 
 As the analysis progressed, one clear realization emerged — the hype curve and the value curve don’t move in sync.
 AI and data skills dominate aspiration and discourse, but the compensation and hiring volumes still favor stability and performance (Systems and Enterprise roles).
 
-_#### Uncertainties:_
+_Uncertainties:_
 
 _The 2024 job dataset may not fully represent small or regional firms, which could understate non-cloud or hybrid tech roles._
 
