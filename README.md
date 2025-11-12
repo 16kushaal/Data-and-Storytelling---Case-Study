@@ -16,7 +16,7 @@ This section checks for the transformation of developer “supply”, what skill
 In 2019, JavaScript symbolized the web era where developers optimized for browsers and user interactivity. By 2024, Python has overtaken JavaScript as the most-desired language worldwide, indicating a skill-economy change.
 
 ![Graph1](figures/desired_languages_2019_vs_2024_arrows.png)
-- Why Python rose: It anchors AI/ML, data science, and automation — the engines of post-2020 innovation.
+- Why Python rose: It anchors AI/ML, data science, and automation.
 
 - Complementary trend: Rust and Go surged as high-performance, type-safe systems languages.
 
@@ -169,14 +169,13 @@ While developer aspirations and employer demand lean toward AI, automation, and 
 
 As the analysis progressed, one clear realization emerged — the hype curve and the value curve don’t move in sync.
 AI and data skills dominate aspiration and discourse, but the compensation and hiring volumes still favor stability and performance (Systems and Enterprise roles).
-This disconnect highlights how markets transition gradually — investment first, returns later.
 
-#### Uncertainties:
+_#### Uncertainties:_
 
-The 2024 job dataset may not fully represent small or regional firms, which could understate non-cloud or hybrid tech roles.
+_The 2024 job dataset may not fully represent small or regional firms, which could understate non-cloud or hybrid tech roles._
 
-Salary data might be biased by limited samples in high-paying subdomains like embedded systems or quant development.
+_Salary data might be biased by limited samples in high-paying subdomains._
 
-Next Steps:
-With access to multi-year hiring data and cross-industry employer breakdowns, the analysis could model how skill demand migrates over time — predicting when AI/ML will move from high-signal to high-value territory.
-Additionally, applying correlation or regression analysis could help quantify how specific skills (e.g., Python + Cloud) influence compensation directly.
+_Next Steps:_
+- _With access to multi-year hiring data and cross-industry employer breakdowns, the analysis could model how skill demand migrates over time._
+- _Additionally, applying correlation or regression analysis could help quantify how specific skills (e.g., Python + Cloud) influence compensation directly._
