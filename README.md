@@ -11,6 +11,7 @@ Datasets Utilised:
 1. StackOveflow Developer Survey (2019 and 2024)
 2. LinkedIn Job Listings(2023-2024)
 3. College Placement Data (2025)
+
 The objective is simple: **to uncover where the market is truly moving, not just what it’s talking about.**
 ## 1. Supply-Side Analysis — The Evolving Developer Profile
 
