@@ -1,8 +1,27 @@
+# Mapping the Evolving Tech Talent Economy (2019 and 2024): A Case Study on How Developer Aspirations, Employer Demand, and Graduate Hiring Shape the Modern Workforce
+The global technology labor market is undergoing a structural realignment.
+From the dominance of JavaScript and web frameworks in 2019 to the rise of Python, AI, and cloud-native ecosystems in 2024, the definition of what it means to be a “developer” has shifted fundamentally.
+
+For graduates entering this ecosystem, this transformation is not abstract — it directly shapes employability, salary trajectories, and skill investment decisions.
+
+This case study investigates one central question:
+How have developer aspirations, employer demand, and graduate hiring valuations evolved between 2019 and 2024 — and what do these shifts reveal about the emerging priorities of the tech labor market?
+By integrating three distinct datasets —
+
+- Developer surveys (2019, 2024),
+- Live IT job postings (2024), and
+- Graduate hiring outcomes and compensation (college placement data, 2024),
+this analysis traces the full economic chain from aspiration → demand → valuation.
+
+The objective is simple: to uncover where the market is truly moving, not just what it’s talking about.
 ## Section 1: Supply-Side Analysis — The Evolving Developer Profile
 
-This section examines the transformation of developer “supply” — what skills developers are actively learning, aspiring to use, and optimizing for.
+This section examines the transformation of developer “supply” — what skills developers are actively learning, aspiring to use.
 By comparing the 2019 and 2024 survey data, we can trace how the DNA of a developer has shifted from web-centric to AI-driven, cloud-native, and open-source aligned.
 What emerges is a clear signal: the developer community is evolving in sync with the infrastructure demands of modern digital ecosystems.
+
+The choice of 2019 versus 2024 is a deliberate strategic decision to capture one of the most significant accelerations in modern tech history. 2019 represents the "pre-pandemic" world, a stable baseline and AI was a specialized field. 2024 represents the "post-AI-boom" world, a landscape fundamentally reshaped by the pandemic's push to remote work and, more importantly, the explosive mainstreaming of Generative AI following 2022. This five-year gap provides the perfect lens to measure the tectonic shift in developer aspirations and market demands—moving from a world of "cloud-first" to a new reality of "AI-first."
+
 ### 1.1 Language Landscape — The Rise of Python and the New Performance Stack
 
 In 2019, JavaScript symbolized the web era — a generation of developers driven by front-end interactivity and ubiquitous browsers.
@@ -10,6 +29,8 @@ By 2024, that energy has decisively moved to Python, now the most-desired langua
 
 This pivot is not merely a change in syntax preference — it’s a structural realignment in the skill economy.
 Python sits at the crossroads of data science, AI/ML, and automation, areas that have dominated innovation cycles since 2020.
+![](figures\desired_languages_2019_vs_2024_arrows.png)
+
 As organizations shifted their R&D and hiring priorities toward intelligence and data-driven decision-making, developers naturally followed.
 
 Simultaneously, languages like Rust and Go have surged in popularity, reflecting a complementary trend: developers are also chasing efficiency and reliability.
@@ -24,6 +45,7 @@ As workloads moved from local servers to distributed cloud systems, the very pla
 
 The 2019 landscape was still hybrid — Linux, Windows, and Docker shared space in developer aspirations.
 By 2024, the platform map tells a radically different story: developers overwhelmingly want to build, deploy, and scale on the public cloud.
+![](figures\desired_platforms_2019_vs_2024_arrows.png)
 
 AWS, Azure, and Google Cloud now dominate the top ranks, representing a complete inversion from five years prior.
 Meanwhile, new-age players like Vercel, Cloudflare, and Firebase demonstrate how the frontier has moved toward serverless, managed, and edge-native ecosystems.
@@ -38,6 +60,7 @@ As applications scale horizontally across distributed environments, the need for
 
 Unlike languages or platforms, the database ecosystem shows a more stable evolution — but one that’s deeply strategic.
 PostgreSQL has not only maintained but expanded its lead as the most-desired database, outpacing NoSQL challengers like MongoDB and Redis.
+![](figures\desired_databases_2019_vs_2024_arrows.png)
 
 Developers are converging on databases that combine performance, scalability, and open-source freedom — attributes that align perfectly with the cloud-native movement described above.
 While PostgreSQL defines the gold standard for relational robustness, the rise of SQLite and MariaDB reveals another preference pattern: developers favor lightweight, embeddable solutions that integrate seamlessly into modular, microservice-driven applications.
@@ -87,6 +110,7 @@ Using job posting data from 2024 and role-level analysis (specifically Data role
 ### 2.1. The Human Core of Technical Work — Soft Skills Take Center Stage
 The word cloud of in-demand IT job skills reveals a surprising yet consistent pattern: the most frequently mentioned “technical skills” are not programming languages or frameworks — they’re human and organizational competencies.
 Terms like communication, problem solving, teamwork, adaptability, and leadership dominate job postings across all technical domains.
+![](figures\it_technical_skills_wordcloud.png)
 
 This reflects a structural evolution in the role of the modern technologist.
 As automation and AI continue to absorb low-level technical execution, human meta-skills — the ability to coordinate, communicate, and adapt — have become the differentiators of employability.
@@ -101,8 +125,9 @@ Yet, beneath this human-centric layer, the technical foundation of demand is sti
 
 ### 2.2. Data Roles — Where Intelligence Meets Infrastructure
 The treemap visualization for “Data” roles in 2024 offers a high-resolution snapshot of where technical demand is consolidating.
+![](figures\data_role_desired_tech_2024_treemap.png)
 
-2.2.1. Languages: The Analytical Trinity
+#### 2.2.1. Languages: The Analytical Trinity
 
 The language demand profile for Data roles is overwhelmingly dominated by Python and SQL — together representing nearly 140% combined adoption (since multiple languages are often used per role).
 
@@ -115,7 +140,7 @@ Secondary languages like R, Go, and C++ indicate employers’ growing preference
 This combination reveals the modern Data professional as a hybrid: both analytical and infrastructural.
 They must build, query, and deploy — not just model.
 
-2.2.2. Databases: The Rise of the Analytical Cloud Stack
+#### 2.2.2. Databases: The Rise of the Analytical Cloud Stack
 
 The database treemap reflects a similar hybridization.
 
@@ -200,6 +225,7 @@ Interpretation:
 The market isn’t betting everything on AI yet — it’s diversifying across performance (Systems), stability (Enterprise), and innovation (Data/AI).
 
 ### 3.2 Languages — Demand Volume ≠ Salary Value
+![](figures\top_grad_hire_languages.png)
 
 Python clearly dominates in demand, but Java and C++ remain indispensable.
 Python represents breadth — the language of choice for data, AI, and automation pipelines.
@@ -209,6 +235,7 @@ While graduates may aspire toward AI-heavy Python roles, the C/C++ and Java engi
 In short, Python builds opportunity; C++ and Java still build wealth.
 
 ### 3.3 Cloud Platforms — The New Minimum Literacy
+![](figures\top_grad_hire_platforms.png)
 
 AWS, Azure, and Linux dominate platform demand — but not as differentiators.
 Cloud fluency has evolved from a specialization to a baseline skill.
@@ -218,7 +245,7 @@ Supporting platforms such as Databricks and Kubernetes mark the transition towar
 Employers aren’t rewarding cloud literacy with higher pay — they’re simply disqualifying candidates who lack it.
 
 ### 3.4 AI/ML Skills — High in Signal, Low in Scale
-
+![](figures\top_grad_hire_aiml.png)
 The AI/ML demand chart shows strong keyword saturation — “AI”, “Machine Learning”, “Generative AI”, “LLM”, “Prompt Engineering.”
 However, the actual number of roles remains limited.
 Employers are signaling interest but hiring selectively, often absorbing AI-related talent under broader data analyst or automation roles.
@@ -228,6 +255,8 @@ AI is no longer an emerging technology — it’s an emerging expectation.
 But it hasn’t yet matured into mass hiring.
 AI skills are a strategic differentiator, not a volume driver.
 
+While AI-related terms dominate in keyword frequency, the absolute hiring volume remains modest, indicating exploratory adoption.
+
 ### 3.5 Valuation — Where the Market Puts Its Money
 
 Graduate salary data gives a clear hierarchy of value:
@@ -236,6 +265,8 @@ Stack	Market Focus	Median CTC (LPA)
 Systems Stack	Core infrastructure, high-performance computing	18.5
 Enterprise Stack	Scalable business software and modernization	15.4
 Data/AI Stack	Python, ML, GenAI pipelines, data tooling	12.0
+
+![Top 15 Most In-Demand AI/ML Skills for Graduate Hires (2024)](figures/grad_salary_by_stack.png)
 
 The takeaway:
 The market pays for scarcity and reliability, not hype.
@@ -277,3 +308,19 @@ Final Takeaway:
 
 The 2024 graduate job market is not yet rewarding AI — it’s training for it.
 The next valuation cycle will belong to those who combine Python, Cloud, and Systems fluency to operationalize intelligence at scale.
+
+### Reflection: Learning, Uncertainty, and Next Steps
+
+As the analysis progressed, one clear realization emerged — the hype curve and the value curve don’t move in sync.
+AI and data skills dominate aspiration and discourse, but the compensation and hiring volumes still favor stability and performance (Systems and Enterprise roles).
+This disconnect highlights how markets transition gradually — investment first, returns later.
+
+#### Uncertainties:
+
+The 2024 job dataset may not fully represent small or regional firms, which could understate non-cloud or hybrid tech roles.
+
+Salary data might be biased by limited samples in high-paying subdomains like embedded systems or quant development.
+
+Next Steps:
+With access to multi-year hiring data and cross-industry employer breakdowns, the analysis could model how skill demand migrates over time — predicting when AI/ML will move from high-signal to high-value territory.
+Additionally, applying correlation or regression analysis could help quantify how specific skills (e.g., Python + Cloud) influence compensation directly.
